@@ -1,0 +1,14 @@
+git remote add origin https://github.com/4jn04ee004/GITOS.git
+git remote -v
+git checkout main
+git config pull.rebase true
+git pull https://github.com/4jn04ee004/GITOS.git
+ls -ltr
+git remote -v
+git push origin main
+ls -ltr
+vim story1.txt
+git status
+git add .
+git commit -m "updating story"
+git push origin main
